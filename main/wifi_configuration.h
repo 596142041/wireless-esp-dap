@@ -15,8 +15,8 @@ static struct {
     const char *ssid;
     const char *password;
 } wifi_list[] __attribute__((unused)) = {
-    {.ssid = "OTA", .password = "12345678"},
-    {.ssid = "DAP", .password = "12345678"},
+    {.ssid = "AX6_S", .password = "ad201306"},
+    {.ssid = "AX6s", .password = "ad201306"},
     // Add your WAP like this:
     // {.ssid = "your ssid", .password = "your password"},
 };
@@ -57,7 +57,7 @@ static struct {
 #endif
 
 #if (USE_KCP == 1)
-#warning KCP is a very experimental feature, and it should not be used under any circumstances. Please make sure what you are doing. Related usbip version: https://github.com/windowsair/usbip-win
+#warning KCP is a very experimental feature, 和 it should not be used under any circumstances. Please make sure what you are doing. Related usbip version: https://github.com/windowsair/usbip-win
 #endif
 
 
